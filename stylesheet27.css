@@ -1,0 +1,205 @@
+header{
+    background-color: #000;
+}
+.logo{
+    max-width: 100%;
+    font-size: 50px;
+}
+.logo img{
+    max-width: 100%;
+    width: 100px;
+}
+.menu{}
+.menu ul li:first-child a{
+    color: #c78e48;
+}
+.menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 22px 20px;
+    line-height: 50px;
+    position: relative;
+    transition: .5s;
+}
+.menu ul li:hover a{
+    color: #c78e48;
+}
+.menu ul li::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right:0;
+    margin: auto;
+    width: 0%;
+    height: 3px;
+    background-color: #c78e48;
+    transition: .5s;
+
+}
+.menu ul li:hover::before{
+    width: 100%;
+}
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s;
+}
+/* banner section */
+.banner{
+    background-image: url("https://i.ibb.co/XDSvzdY/kobu-agency-IWLR561-Yb-MY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 200px 0;
+}
+
+.banner-content {
+    line-height: 78px;
+    margin-top: 105px;
+}
+.banner-content p {
+    font-size: 25px;
+    color: #fff;
+    font-family: ui-sans-serif;
+    font-weight: 400;
+}
+.banner-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+.banner-content a {
+    font-size: 20px;
+    color: #000;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: #fff;
+    margin-right: 18px;
+    Font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    transition: .5s;
+}
+.banner-content a:hover{
+    background-color: #d7e613;
+    color:#fff;
+}
+
+/* service section css */
+.service{
+    background-color: #f8f8f8;
+    padding: 70px 0;
+}
+.service .box{
+    text-align: center;
+    box-shadow: 1px 1px 10px #ddd;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.service .box:hover img{
+    transform: rotateY(360deg);
+}
+.service .box img{
+    transition: .5s;
+}
+.service .box h3{}
+.service .box p{}
+.service .box a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c78e48;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid #c78e48;
+    border-radius: 7px;
+    transition: .5s;
+}
+.service .box a:hover{
+    transform: translateY(10px);
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.service .box:hover a{
+    color: #c69453;
+    background-color: #fff;
+}
+.box:hover{
+    background-color: #ddd;
+}
+
+* Contact us section css */
+.contact-us{
+    background-color: #ffffff;
+    padding: 150px 0;
+}
+.contact-us-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-us-header h3{
+    font-size: 30px;
+    color: #414657;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.contact-us-header p{
+    font-size: 18px;
+    color: #7f7676;
+    padding: 0 40px;
+}
+.chithi{
+    width: 600px;
+    padding: 24px 63px;
+    font-size: 25px;
+    border: 2px solid olive;
+    border-radius: 10px;
+
+}
+.man {
+    width: 290px;
+    padding: 15px 60px;
+    font-size: 15px;
+    border: 2px solid olive;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.mes {
+    width: 600px;
+    padding: 40px 96px;
+    border: 2px solid olive;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.bat{
+    width: 150px;
+    height: 50px;
+    background-color: #aa972c;
+    font-size: 20px;
+    color: #fff;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: .5s;
+}
+.bat:hover{
+    background-color: #fff;
+    color:#bcc633;
+}
+.copy-right{
+    margin-top: 70px;
+    font-size: 20px;
+    color: #000;
+}

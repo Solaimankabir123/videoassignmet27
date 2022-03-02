@@ -1,0 +1,25 @@
+/* Responsive css for 1240px */
+@media(max-width:1200px) {
+    .menu ul li a {
+        font-size: 14px !important;
+    }
+    .menu ul li {
+        padding: 22px 12px !important;
+    }
+}
+
+@media (max-width:776) {
+    .pk {
+        width: 100% !important;
+        margin-left: auto;
+    }
+    .ok {
+        width: 100% !important;
+    }
+    .chithi {
+        width: 100% !important;
+        padding: 17px 35px;
+        font-size: 15px;
+
+    }
+}
